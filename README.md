@@ -1,15 +1,25 @@
-Solution of ItPurpleHack Team Misiskovo
+# Решение команды Мисисково на It Purple Hack, кейс Сбера
 
-Best Public score: 0.77508
+## Общая информация
 
-Best Private score: ?
+1 место кейс Сбера (предсказание оттока клиентов). Результаты:
 
-Structure:
+- **Best Public score:** 0.77508
+- **Best Private score:** 0.77203
 
-  #1. analytics
 
-  #2. feature_extraction_1
+## Структура проекта
 
-  #3. feature_extraction_2
+Проект состоит из следующих основных частей:
 
-  #4. main
+1. **analytics** - модуль аналитики данных.
+2. **feature_extraction_1** - модуль для извлечения признаков (часть 1).
+3. **feature_extraction_2** - модуль для извлечения признаков (часть 2).
+4. **main** - составление и обучение пайплайна
+
+
+![Функциональная схема пайплайна:](functional_schema.jpg)
+
+## Краткое описание пайплайна:
+
+Voting Classifier, в котором содержатся стекинг трех катбустов с разными сидами и бэггинг нейросетевых моделей.
